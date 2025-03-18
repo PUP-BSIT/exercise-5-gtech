@@ -107,5 +107,29 @@ if answer == "C":
 else:
     print(f"{answer} is incorrect, the correct answer is C.")
 
+print("\nQuestion 9:")
+print("(Grace Anne Lim) Which is the shortest month of the year?")
+print("a. March     c. April")
+print("b. July      d. February")
+answer = input("Enter your answer: ").upper()
+
+if answer == "D":
+    print("Your answer is correct!")
+    score_counter += 1
+else:
+    print(f"{answer} is incorrect, the correct answer is D.")
+
+print("\nQuestion 10:")
+print("(Grace Anne Lim) What is the largest planet in our Solar System?")
+print("a. Earth         c. Mars")
+print("b. Jupiter       d. Neptune")
+answer = input("Enter your answer: ").upper()
+
+if answer == "B":
+    print("Your answer is correct!")
+    score_counter += 1
+else:
+    print(f"{answer} is incorrect, the correct answer is B.")
+
 # Display score    
 print(f"\nCongratulations! You got {score_counter} out of {NUMBER_OF_ITEMS} items.")
