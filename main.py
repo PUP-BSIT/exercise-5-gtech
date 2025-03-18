@@ -59,6 +59,29 @@ if answer == "A":
 else:
     print(f"{answer} is incorrect, the answer is A.")
 
+print("\nQuestion 5:")
+print("(Dianna Rain M. Romero) Who painted the Mona Lisa?")
+print("a. Vincent van Gogh      c. Pablo Picasso")
+print("b. Leonardo da Vinci     d. Michelangelo")
+answer = input("Enter your answer: ").upper()
+
+if answer == "B":
+    print("Your answer is correct!")
+    score_counter += 1
+else:
+    print(f"{answer} is incorrect, the correct answer is B.")
+
+print("\nQuestion 6:")
+print("(Dianna Rain M. Romero) What is the longest river in the world?")
+print("a. Amazon River           c. Nile River")
+print("b. Yangtze River          d. Mississippi River")
+answer = input("Enter your answer: ").upper()
+
+if answer == "C":
+    print("Your answer is correct!")
+    score_counter += 1
+else:
+    print(f"{answer} is incorrect, the correct answer is C.")
 
 # Display score    
 print(f"\nCongratulations! You got {score_counter} out of {NUMBER_OF_ITEMS} items.")
