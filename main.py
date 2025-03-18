@@ -83,5 +83,29 @@ if answer == "C":
 else:
     print(f"{answer} is incorrect, the correct answer is C.")
 
+print("\nQuestion 7:")
+print("(Althea Aragon) What is the last name of the business tycoon behind the 'No.5' perfume?")
+print("a. Chanel              c. Dior")
+print("b. Louis Vuitton       d. Coco")
+answer = input("Enter your answer: ").upper()
+
+if answer == "A":
+    print("Your answer is correct!")
+    score_counter += 1
+else:
+    print(f"{answer} is incorrect, the correct answer is A.")
+
+print("\nQuestion 8:")
+print("(Althea Aragon) What is the smallest country in the world?")
+print("a. Barbados       c. Vatican City")
+print("b. Malta          d. Maldives")
+answer = input("Enter your answer: ").upper()
+
+if answer == "C":
+    print("Your answer is correct!")
+    score_counter += 1
+else:
+    print(f"{answer} is incorrect, the correct answer is C.")
+
 # Display score    
 print(f"\nCongratulations! You got {score_counter} out of {NUMBER_OF_ITEMS} items.")
